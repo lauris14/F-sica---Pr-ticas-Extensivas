@@ -1,0 +1,42 @@
+/*
+!!!!LARI DEIXA ESSE COMENTARIO PRA COISAS QUE VC OU EU QUISER MUDAR!!!!
+*/
+
+h1 {
+  text-align: center;
+}
+
+.btn-fixo:hover {
+  background-color: #00ddb3;
+}
+
+#btn-visualizacao {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00ffcc;
+  color: #000;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px #000;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#btn-voltar {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ff3366;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 10px #000;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
