@@ -2,6 +2,43 @@
 !!!!LARI DEIXA ESSE COMENTARIO PRA COISAS QUE VC OU EU QUISER MUDAR!!!!
 */
 
+.header {
+  background-color: #000000; 
+  color: #fff;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 40px;
+  box-sizing: border-box;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.header-right .header-img {
+  width: 60px;  
+  height: auto;
+  border-radius: 8px; 
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #232f3e; 
+  color: #ffffff;
+}
+
+footer {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
 h1 {
   text-align: center;
 }
@@ -40,3 +77,47 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  min-width: 180px;
+}
+
+.footer-section h4 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sim-box {
+  margin: 10px;
+  padding: auto;
+
+}
