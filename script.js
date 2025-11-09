@@ -1,6 +1,7 @@
 /*
 !!!!LARI DEIXA ESSE COMENTARIO PRA COISAS QUE VC OU EU QUISER MUDAR!!!!
 */
+/*Simulação*/
 const thetas = [];
 const probUp = [];
 const probDown = [];
@@ -44,7 +45,6 @@ const traceDown = {
 };
 
 Plotly.newPlot('plot', [traceUp, traceDown], {
-  title: 'Resposta do Qubit à Perturbação',
   paper_bgcolor: '#222',
   plot_bgcolor: '#222',
   font: { color: '#eee' },
