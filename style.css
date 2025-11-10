@@ -29,7 +29,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #232f3e; 
+  background-color: #416a9c; 
   color: #ffffff; 
 }
 
@@ -37,10 +37,12 @@ footer {
   background-color: #000000;
   font-family: Arial, sans-serif;
   font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*
 }
 
 h1 {
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .btn-fixo:hover {
@@ -48,11 +50,12 @@ h1 {
 }
 
 #btn-visualizacao {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #00ffcc;
-  color: #000;
+  background-color: #da335f;
+  color: #ffffff;
   padding: 12px 20px;
   border-radius: 8px;
   font-weight: bold;
@@ -63,10 +66,11 @@ h1 {
 }
 
 #btn-voltar {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: fixed;
   bottom: 20px;
   left: 20px;
-  background-color: #ff3366;
+  background-color: #da335f;
   color: #fff;
   padding: 10px 18px;
   border-radius: 8px;
@@ -93,6 +97,7 @@ h1 {
   color: #fff;
   font-size: 16px;
   margin-bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .footer-section ul {
@@ -117,22 +122,23 @@ h1 {
 }
 
 #Titulo-Simulaçao {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: black;
   display: inline-block;        
-  padding: 10px 20px;           
-  border-radius: 25px;          
+  padding: 10px 10px;           
+  /*border-radius: 25px;*/       
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
 .Pagina {
-  font-family: ;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: white;
   color: black;
   border-radius: 10px;          
-  font-weight: bold;
-  font-size: 20px;
+  /*font-weight: bold;*/
+  font-size: 18px;
   display: inline-block; 
   margin-left: 20%;
   margin-right: 20%;
