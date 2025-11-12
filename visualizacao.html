@@ -17,25 +17,64 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
-<head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Sensor Quântico</title>
-    </head>
-    <header class="header">
-        <div class="header-left">
-            <h1>Sensor Quântico</h1>
-        </div>
-        <div class="header-right">
-           <img src="https://images.seeklogo.com/logo-png/24/2/senac-logo-png_seeklogo-242013.png" alt="Logo" class="header-img">
-        </div>
-    </header>
+<header class="header">
+  <div class="header-left">
+    <h1>Sensor Quântico</h1>
+  </div>
+  <div class="header-right">
+    <img src="https://images.seeklogo.com/logo-png/24/2/senac-logo-png_seeklogo-242013.png" alt="Logo" class="header-img">
+  </div>
+</header>
 <body>
   <div>
     <h1 id="Titulo-Simulaçao">Simulação de Medida de Spin com a Perturbação</h1>
     <div id="plot"></div>
   </div>
   <script src="script.js"></script>
+
+  <div class="Pagina" id="Pagina-do-Codigo">        
+        <h3>
+          O que o código nos diz?
+        </h3>
+        <p>
+          Este código implementa uma simulação da dinâmica de um qubit sujeito 
+          a uma rotação em torno do eixo Y da esfera de Bloch, representando a 
+          ação de uma perturbação externa — como um campo magnético fraco.
+          Ao aplicar uma rotação no estado quântico, o gráfico mostra como a 
+          probabilidade de medir o qubit em 0⟩ ou 1⟩ sendo que a rotação é 
+          parametrizada por um ângulo θ, variando de 0 a π.
+        </p>
+        <p>
+          A matriz de rotação           
+        <img src="R_Y.png">
+          aplicada ao estado inicial é definida como:
+        </p>
+        <img src="Matriz.png">
+        <p>          
+          Essa variação de probabilidade é a base dos sensores quânticos de 
+          spin: eles detectam mudanças minúsculas no ambiente observando como 
+          o estado do qubit se altera. Mesmo perturbações muito pequenas podem 
+          causar grandes mudanças na medição, o que torna esses sensores 
+          extremamente sensíveis e úteis em diversas áreas.
+        </p>
+          
+        <p>
+          As probabilidades de medição nos estados 0⟩ e 1⟩ são 
+          calculadas como os módulos quadrados dos coeficientes da função de 
+          onda resultante:
+        </p>
+        <img src="Modulo.png">
+        <p>
+          O gráfico gerado representa essas probabilidades em função do 
+          ângulo θ, evidenciando a sensibilidade do qubit à perturbação. 
+          Essa propriedade é explorada em sensores quânticos de spin, que 
+          utilizam a evolução do estado quântico como mecanismo de detecção. 
+          Pequenas variações no campo externo provocam mudanças mensuráveis 
+          na distribuição de probabilidades, permitindo a detecção de sinais 
+          extremamente fracos com alta precisão.
+        </p>
+  </div>
+
   <a href="index.html" class="btn-fixo" id="btn-voltar">← Voltar</a>
 </body>
 <footer>        
@@ -48,9 +87,13 @@
 
     <div class="footer-section">
       <ul>
-        <li><a href="#">Simulação do Qubit</a></li>
+        <li><a href="visualizacao.html">Simulação do Qubit</a></li>
       </ul>
-    </div>    
+    </div> 
+    <div class="footer-section">
+      <ul>
+        <li><a href="bibliografia.html">Bibliografia</a></li>      </ul>
+    </div>   
   </div>
     </footer>
 </html>
