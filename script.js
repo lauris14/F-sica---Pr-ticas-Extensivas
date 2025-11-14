@@ -1,6 +1,3 @@
-/*
-!!!!LARI DEIXA ESSE COMENTARIO PRA COISAS QUE VC OU EU QUISER MUDAR!!!!
-*/
 /*Simulação*/
 const thetas = [];
 const probUp = [];
@@ -51,3 +48,4 @@ Plotly.newPlot('plot', [traceUp, traceDown], {
   xaxis: { title: 'Ângulo de rotação θ' },
   yaxis: { title: 'Probabilidade' }
 });
+
