@@ -92,6 +92,31 @@
       é análoga ao funcionamento de sensores reais.
     </p>
 
+    <h3>Ruído de Projeção Quântica e Precisão de Medição</h3>
+    <p>
+      A precisão de um sensor quântico é fundamentalmente limitada pelo Ruído 
+      de Projeção Quântica (Quantum Projection Noise). Este fenômeno surge da 
+      natureza probabilística da mecânica quântica: ao medir um qubit em um 
+      estado de superposição |ψ⟩=α|0⟩+β|1⟩, o sistema colapsa para um dos 
+      autoestados (|0⟩ ou ||1⟩) de forma aleatória, seguindo uma distribuição binomial.
+    </p>
+
+    <p>
+      A incerteza associada a essa medição diminui com o aumento do número 
+      de repetições experimentais (N, ou "shots"). O erro estatístico escala 
+      com fator de 1/\sqrt{N}, conforme o Limite Quântico Padrão.
+    </p>
+
+    <p>
+      Portanto, para distinguir uma pequena perturbação externa (uma rotação 
+      0 pequena) das flutuações estatísticas naturais do sistema, é necessário 
+      maximizar o número de medições. Se o número de shots for baixo, o ruído 
+      de projeção pode mascarar o sinal fraco que o sensor está tentando 
+      detectar, tornando impossível diferenciar a perturbação externa de uma 
+      simples flutuação quântica aleatória.
+    </p>
+
+
     <h3>Conclusão </h3>
     <p>
       A simulação de um qubit sujeito a perturbações externas oferece uma
